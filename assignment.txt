@@ -1,0 +1,7 @@
+geniue_name="mehmet"
+pwd="Wash1nton"
+name=input(f"Please enter your name to see the password:    ")
+if name == geniue_name:
+    print ("Hello, {}! The password is: {}".format(name.title(), pwd))
+elif name != geniue_name:
+    print ("Hello {}! See you later.".format(name.title()))
